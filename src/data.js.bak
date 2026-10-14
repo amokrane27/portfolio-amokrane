@@ -1,0 +1,64 @@
+// CONTENU DU PORTFOLIO — à personnaliser dans ce fichier.
+// Les projets marqués « Concept à réaliser » ou « À documenter » ne sont PAS présentés comme des réalisations terminées.
+export const profile = {
+  name: 'Amokrane Chala',
+  shortName: 'Amokrane',
+  role: 'Marketing · Création · Digital',
+  headline: 'Des idées qui captent.\nDes outils qui connectent.',
+  intro: 'Un profil hybride entre créativité marketing et culture informatique. J’aime comprendre un besoin, trouver le bon angle et donner forme à une idée.',
+  email: 'amokranechala27@gmail.com',
+  domain: 'amokranchala.fr', // À remplacer si tu choisis un autre domaine
+  linkedin: '', // Colle ici l’URL de ton vrai profil LinkedIn
+  github: '', // Colle ici l’URL de ton vrai profil GitHub
+  cvPath: '/cv-amokrane-chala.pdf', // Dépose ton CV final dans le dossier public/
+  availability: 'Recherche d’alternance',
+  education: 'Marketing & Sales · parcours à confirmer avant publication',
+  location: 'Île-de-France',
+};
+
+export const projects = [
+  {
+    id: 'saint-sebastien', number: '01', category: 'Création', kind: 'Photographie · Voyage', status: 'Projet personnel', featured: true,
+    title: 'Saint-Sébastien — Donostia', short: 'Une série photographique autour de la baie de La Concha, entre architecture, mer et atmosphère.',
+    description: 'Une sélection de photographies personnelles réalisées à Saint-Sébastien. La série joue sur les lignes du front de mer, les reliefs, l’architecture et les variations de lumière pour raconter la ville sans la réduire à une carte postale.',
+    role: 'Photographie · sélection · direction artistique', tools: ['Photographie', 'Composition', 'Lumière', 'Storytelling'],
+    challenge: 'Créer une série cohérente à partir de scènes très différentes : plage, architecture et paysage urbain.',
+    approach: 'Alterner plans larges et cadrages plus graphiques, en gardant une palette naturelle et une attention particulière aux lignes du front de mer.',
+    outcome: 'Une série personnelle qui peut être utilisée comme travail photographique, matière visuelle ou référence de direction artistique.',
+    image: '/images/spain/saint-sebastien-01.jpeg', imageAlt: 'Vue de la baie de La Concha à Saint-Sébastien', accent: 'blue', isPlaceholder: false,
+    gallery: ['/images/spain/saint-sebastien-01.jpeg', '/images/spain/saint-sebastien-02.jpeg'],
+  },
+  {
+    id: 'bilbao', number: '02', category: 'Création', kind: 'Photographie · Voyage', status: 'Projet personnel', featured: true,
+    title: 'Bilbao — ville en mouvement', short: 'Une série urbaine entre fleuve, architecture, infrastructures et lumières de fin de journée.',
+    description: 'Une série de photographies personnelles prises à Bilbao, avec un regard davantage tourné vers la structure de la ville : le fleuve, les routes, les bâtiments, les reliefs et les changements d’ambiance entre le jour et la nuit.',
+    role: 'Photographie · sélection · direction artistique', tools: ['Photographie', 'Architecture', 'Paysage urbain', 'Lumière'],
+    challenge: 'Montrer une ville très construite tout en conservant une sensation de mouvement et d’échelle.',
+    approach: 'Chercher des points de vue élevés et des compositions où les infrastructures deviennent elles-mêmes des éléments graphiques.',
+    outcome: 'Une série qui documente Bilbao de façon plus personnelle, entre photographie de voyage et observation urbaine.',
+    image: '/images/spain/bilbao-01.jpeg', imageAlt: 'Vue panoramique de Bilbao et de son fleuve', accent: 'green', isPlaceholder: false,
+    gallery: ['/images/spain/bilbao-01.jpeg', '/images/spain/bilbao-02.jpeg', '/images/spain/bilbao-03.jpeg', '/images/spain/bilbao-04.jpeg'],
+  },
+  {
+    id: 'database-streaming', number: '03', category: 'Tech', kind: 'Projet académique', status: 'À documenter', featured: false,
+    title: 'Base de données de streaming', short: 'Modélisation et gestion de données avec SQL et bases relationnelles.',
+    description: 'Projet académique réalisé dans le cadre de la formation en informatique. Complète cette fiche avec le périmètre exact du projet, ton rôle et les éléments que tu peux montrer.',
+    role: 'Projet universitaire — contribution à préciser', tools: ['SQL', 'PostgreSQL', 'Oracle', 'Triggers'],
+    challenge: 'Décris les besoins fonctionnels et les données à structurer dans le projet réel.',
+    approach: 'Ajoute un schéma simplifié, quelques requêtes représentatives et les règles de gestion que tu as implémentées.',
+    outcome: 'Documente ce qui a été effectivement réalisé et ce que tu as appris. N’invente pas de performance chiffrée.',
+    image: '', imageAlt: 'Illustration abstraite de base de données', accent: 'green', isPlaceholder: false, githubUrl: '',
+  },
+];
+
+export const skills = [
+  { title: 'Création & contenu', items: ['Photographie', 'Composition visuelle', 'Création d’affiches', 'Contenus sociaux'], note: 'À illustrer avec tes travaux réels.' },
+  { title: 'Marketing & business', items: ['Marketing digital', 'Relation client', 'Analyse de besoin', 'Communication'], note: 'Ajoute des exemples concrets et tes outils réellement utilisés.' },
+  { title: 'Tech & data', items: ['SQL', 'PostgreSQL', 'Oracle', 'Python', 'Pandas', 'Git'], note: 'Sélectionne uniquement les compétences que tu peux expliquer en entretien.' },
+];
+
+export const journey = [
+  { title: 'Marketing & Sales', place: 'Formation actuelle — intitulé et établissement à confirmer', date: '2026–2028 à confirmer', detail: 'Précise le programme effectivement suivi avant la mise en ligne.' },
+  { title: 'Licence Informatique', place: 'Université de Versailles Saint-Quentin-en-Yvelines (UVSQ)', date: 'Dates à compléter', detail: 'Présente les enseignements et projets validés que tu souhaites valoriser.' },
+  { title: 'Expériences professionnelles', place: 'Relation client / vente — à personnaliser', date: 'Dates à compléter', detail: 'Ajoute uniquement les postes, missions et dates exacts.' },
+];
