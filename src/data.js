@@ -121,9 +121,48 @@ export const projects = [
 ];
 
 export const skills = [
-  { title: 'Création & contenu', items: ['Photographie', 'Direction visuelle', 'Création d’affiches', 'Contenus sociaux'], note: 'Photographie, composition et création de supports pensés pour raconter une marque et capter l’attention.' },
-  { title: 'Marketing & business', items: ['Marketing digital', 'Relation client', 'Analyse de besoin', 'Communication digitale'], note: 'Comprendre un besoin, construire un message et créer des contenus cohérents avec une marque et son public.' },
-  { title: 'Tech & data', items: ['SQL', 'PostgreSQL', 'Oracle', 'Python', 'Pandas', 'Git'], note: 'Une culture informatique solide pour analyser les données, comprendre les outils et travailler à l’interface entre tech et business.' },
+  { 
+    title: 'Création & contenu', 
+    items: [
+      'Photographie',
+      'Direction visuelle',
+      'Création d’affiches',
+      'Contenus sociaux',
+      'Canva',
+      'CapCut',
+      'InShot'
+    ], 
+    note: 'Photographie, composition et création de supports pensés pour raconter une marque et capter l’attention.' 
+  },
+
+  { 
+    title: 'Marketing & business', 
+    items: [
+      'Marketing digital',
+      'Relation client',
+      'Analyse de besoin',
+      'Communication digitale',
+      'Excel',
+      'PowerPoint',
+      'Google Analytics'
+    ], 
+    note: 'Comprendre un besoin, construire un message et créer des contenus cohérents avec une marque et son public.' 
+  },
+
+  { 
+    title: 'Tech & data', 
+    items: [
+      'Python',
+      'Pandas',
+      'SQL',
+      'JSON',
+      'CSV',
+      'Git',
+      'PostgreSQL',
+      'Oracle'
+    ], 
+    note: 'Une culture informatique solide pour analyser les données, comprendre les outils et travailler à l’interface entre tech et business.' 
+  },
 ];
 
 export const journey = [
